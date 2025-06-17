@@ -1,0 +1,53 @@
+:root {
+  --secondary-color: grey;
+  --accent-color: rgb(11, 143, 143);
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+}
+
+p {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.body-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 13px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.main-navigation-links {
+}
+
+.headers {
+  color: var(--accent-color);
+}
+.navigation-accent {
+  color: var(--secondary-color);
+}
+
+footer {
+  margin-top: 300px;
+  display: block;
+  justify-content: end;
+  border-top: solid 1px rgba(128, 128, 128, 0.6);
+}
