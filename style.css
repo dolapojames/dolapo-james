@@ -24,6 +24,10 @@ p {
   justify-content: space-between;
 }
 
+.main-navigation-links {
+  color: var(--secondary-color);
+}
+
 .body-content img {
   max-width: 100%;
   height: auto;
@@ -33,9 +37,6 @@ p {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-}
-
-.main-navigation-links {
 }
 
 .headers {
