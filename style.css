@@ -48,6 +48,7 @@ h1 {
 
 footer {
   margin-top: 300px;
+  margin-right: 20px;
   display: block;
   justify-content: end;
   border-top: solid 1px rgba(128, 128, 128, 0.6);
