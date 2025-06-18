@@ -28,6 +28,15 @@ p {
   color: var(--secondary-color);
 }
 
+.main-navigation-links a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.main-navigation-links :hover {
+  color: var(--accent-color);
+}
+
 .body-content img {
   max-width: 100%;
   height: auto;
