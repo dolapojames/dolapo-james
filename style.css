@@ -8,8 +8,13 @@ body {
 }
 
 p {
-  font-size: 17px;
+  font-size: 1em;
   font-family: "Poppins", sans-serif;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .main {
@@ -43,13 +48,21 @@ p {
   border-radius: 13px;
 }
 
-h1 {
+.name-logo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-size: 3em;
 }
 
 .headers {
   color: var(--accent-color);
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.sub-headers {
+  color: var(--secondary-color);
+  font-size: 1.5em;
 }
 .navigation-accent {
   color: var(--secondary-color);
