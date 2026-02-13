@@ -33,7 +33,7 @@ header {
 }
 
 .portfolio-element li:hover {
-  transform: scale(2);
+  transition: all 2s ease-in-out;
 }
 
 .main {
