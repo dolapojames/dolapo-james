@@ -21,6 +21,8 @@ header {
   margin-bottom: 3vh;
 }
 
+/* Portfolio projects styling*/
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -30,7 +32,7 @@ header {
 .portfolio-element {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-self: space-evenly;
 }
 
 .portfolio-element p {
@@ -49,7 +51,7 @@ header {
 
 .portfolio-element p a {
   color: var(--secondary-color);
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .portfolio-element p a:hover {
