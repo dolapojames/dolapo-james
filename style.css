@@ -64,6 +64,38 @@ header {
   border-radius: 13px;
 }
 
+/* Project Styling */
+
+.project-description {
+  margin: 0 auto;
+  width: 90%;
+}
+.project-description ul {
+  padding: 0;
+}
+
+.project-container {
+  display: grid;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.single-project img {
+  width: 100%;
+}
+
+.single-project-series {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 1em;
+}
+.single-project-series > img {
+  width: 100%;
+}
+
 /* Navigation styling*/
 
 .name-logo {
@@ -110,9 +142,8 @@ header {
 .headers-center {
   color: var(--accent-color);
   font-size: 4em;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   margin-top: 0;
-  text-align: center;
 }
 
 .sub-headers {
