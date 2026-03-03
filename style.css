@@ -25,6 +25,7 @@ header {
 
 .portfolio-grid {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
   gap: 2em;
 }
@@ -59,6 +60,7 @@ header {
 }
 
 .body-content img {
+  width: 100%;
   height: auto;
   border-radius: 13px;
 }
@@ -181,5 +183,25 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
+  }
+
+  .name-logo {
+    font-weight: 500;
+    font-size: 1.5em;
+  }
+
+  .name-logo-title {
+    color: var(--accent-color);
+    font-size: 0.7em;
+    margin-bottom: 15px;
+  }
+
+  .main-navigation-links a {
+    font-size: 0.6em;
+    display: block;
+  }
+
+  .nav-hidden {
+    display: none;
   }
 }
