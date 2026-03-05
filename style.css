@@ -174,4 +174,8 @@ footer {
     font-size: 1.2em;
     text-align: center;
   }
+
+  .project-description li {
+    font-size: 0.8em;
+  }
 }
