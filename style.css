@@ -113,8 +113,9 @@ header {
 
 .headers {
   color: var(--accent-color);
-  font-size: 2.5em;
-  margin-bottom: 15px;
+  font-size: 3em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .headers-center {
