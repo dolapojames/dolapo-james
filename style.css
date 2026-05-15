@@ -179,4 +179,8 @@ footer {
   .project-description li {
     font-size: 0.8em;
   }
+
+  i.bi.bi-github {
+    font-size: 0.8em;
+  }
 }
